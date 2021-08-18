@@ -4,4 +4,4 @@ LABEL maintainer=”deepak@softwareyoga.com”
 
 ADD  ./target/roshambo.war /usr/local/tomcat/webapps/
 
-EXPOSE 8085
+CMD ["catalina.sh", "run"]
